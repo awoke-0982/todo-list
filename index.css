@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    background-color: lavenderblush;
+    /* margin:140px; */
+
+
+   
+}
+.text {
+    background-color: antiquewhite;
+    align-items: center;
+   
+    border-radius: 10px;
+
+}
+
+
+.date{
+    background-color:whitesmoke;
+    border-radius: 10px;
+}
+to-do-list{
+    color: red;
+}
+.container{
+   margin-top: 180px;
+   margin-left: 380px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+    height:400px;
+  
+    width:500px;
+    background-image: url(todo.jfif);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+} 
+.click{
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+h1{
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
