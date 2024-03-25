@@ -26,20 +26,44 @@ body {
 to-do-list{
     color: red;
 }
+input{
+    width:50%;
+}
 .container{
-   margin-top: 180px;
-   margin-left: 380px;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     color: white;
     border-radius: 15px;
-    height:400px;
-  
-    width:500px;
-    background-image: url(todo.jfif);
-    background-repeat: no-repeat;
-    background-size: 500px 500px;
+    height:100vh;
+    gap:10px;
+    line-height: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+    width:100%;
+    color: black;
 } 
+#input{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+    ;
+}
+main{
+    width:50%;
+    height: 50%;
+    text-align: center;
+    margin-top:15px;
+    padding: 20px;
+    background: linear-gradient(235deg,#153677,#4e085f) ;
+
+}
+#to-do-list{
+   font-size: 1.5rem;
+   gap:30px;
+}
 .click{
     border-radius: 10px;
     background-color: lightgreen;
